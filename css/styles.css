@@ -1,3 +1,10 @@
+footer {
+	float: left;
+	margin-top: 12vw;
+}
+
+
+
 .header-mobile {
 	padding: 3% 0 10% 0;
 	margin-bottom: 5%
@@ -23,9 +30,14 @@
 
 }
 
+
 .full-width {
 	width: 100%;
 
+}
+
+.hero-image {
+	margin-bottom: 15px;
 }
 
 .remove-padding-left {
