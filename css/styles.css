@@ -5,7 +5,7 @@
 
 .header-black-box {
 	background-color:  rgba(0, 0, 0, 0.4);
-	padding: 6vw;
+	padding: 3vw;
 	
 }
 
@@ -23,7 +23,24 @@
 
 }
 
-/*! Responive  */
+.full-width {
+	width: 100%;
+
+}
+
+.remove-padding-left {
+	padding-left:0px;
+}
+
+.remove-padding-right {
+	padding-right:0px;
+}
+
+.add-padding-center {
+	padding-left: 7.50px;
+	padding-right: 7.5px;
+}
+/*! Responsive  */
 
 @media (min-width: 850px) {
   .header-image {
