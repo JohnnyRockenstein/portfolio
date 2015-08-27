@@ -10,8 +10,17 @@ footer {
 }
 
 .header-black-box {
-	background-color:  rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.4);
 	padding: 3vw;
+	
+}
+
+.gallery-black-box {
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 3.5em;
+	width: 100%;
+	position: absolute;
+	bottom:0;
 	
 }
 
@@ -36,11 +45,12 @@ footer {
 }
 
 .gallery-hero-image {
-	background-image: url(/images/island-1000-medium-2x.jpg);
+	background-image: url(/images/island-600-medium.jpg);
   	background-size: cover;
   	overflow: hidden;
-  	margin-bottom: 15px;
   	height: 46vw;
+  	position: relative;
+  	margin-bottom: 5vw;
 }
 
 .remove-padding-left {
@@ -63,6 +73,7 @@ footer {
   	background-image: url(/images/house-1600-large-1x.jpg);
   	height: 40vw;
   	padding-top: 50px;
+  	margin: 0 15px 0 15px;
 }
 
   .header-black-box {
@@ -72,11 +83,8 @@ footer {
 }
 
   .gallery-hero-image {
-	background-image: url(/images/island-1000-medium-2x.jpg);
-  	background-size: cover;
-  	overflow: hidden;
-  	margin-bottom: 15px;
-  	height: 46vw;
+	background-image: url(/images/island-1200-large.jpg);
+  	
 }
 
 }
@@ -103,11 +111,8 @@ footer {
   }
 
   .gallery-hero-image {
-	background-image: url(/images/island-500-small-1x.jpg);
-  	background-size: cover;
-  	overflow: hidden;
-  	margin-bottom: 15px;
-  	height: 46vw;
+	background-image: url(/images/island-300-small.jpg);
+  
   }
 
 }	
@@ -117,11 +122,8 @@ footer {
   	padding: 2vw;
  }
  .gallery-hero-image {
-	background-image: url(/images/island-1600-large-1x.jpg);
-  	background-size: cover;
-  	overflow: hidden;
-  	margin-bottom: 15px;
-  	height: 46vw;
+	background-image: url(/images/island-1200-large.jpg);
+  	
 }
 
   	#header-text {
