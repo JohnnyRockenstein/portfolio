@@ -2,32 +2,24 @@ footer {
 	float: left;
 	margin-top: 12vw;
 }
-
-
 .header-mobile {
 	padding: 3% 0 10% 0;
 	margin-bottom: 5%
 }
-
 .header-black-box {
 	background-color: rgba(0, 0, 0, 0.4);
 	padding: 3vw;
-	
 }
-
 .gallery-black-box {
 	background-color: rgba(0, 0, 0, 0.4);
 	height: 3.5em;
 	width: 100%;
 	position: absolute;
 	bottom:0;
-	
 }
-
 .container-mobile {
 	padding: 0;
 }
-
 .header-image {
 	background-image: url(/images/house-800-small-3x.jpg);
 	overflow: hidden;
@@ -35,117 +27,114 @@ footer {
 	padding-bottom: 50px;
 	padding-top: 12vw;
 	height: 60vw;	
-
 }
-
-
 .full-width {
 	width: 100%;
-
 }
-
 .gallery-hero-image {
 	background-image: url(/images/island-600-medium.jpg);
   	background-size: cover;
   	overflow: hidden;
   	height: 46vw;
   	position: relative;
-  	margin-bottom: 5vw;
+ 	margin-bottom: 5vw;
 }
-
 .remove-padding-left {
 	padding-left:0px;
 }
-
 .remove-padding-right {
 	padding-right:0px;
 }
-
 .add-padding-center {
 	padding-left: 7.50px;
 	padding-right: 7.5px;
 }
+.remove-row-padding {
+   padding: 0 0;
+}
+#image-caption {
+	margin: 15px;
+  font-size: 0.9em;
+}
+/*.container-fluid{
+  padding: 0 0;*/
+}
+.thumb-text{
+  margin-top: 7.5px;
+  text-transform: uppercase;
+  /*text-align: center;*/
+  font-size: 1.2em;
+  color: #8D2D09;
+
+}
 /*! Responsive  */
 
 @media (min-width: 850px) {
-  
   .header-image {
-  	background-image: url(/images/house-1600-large-1x.jpg);
+    background-image: url(/images/house-1600-large-1x.jpg);
   	height: 40vw;
   	padding-top: 50px;
   	margin: 0 15px 0 15px;
-}
-
+  }
   .header-black-box {
   	height: 100%;
   	padding: 2vw;
   	padding-bottom: 0;
-}
-
+  }
   .gallery-hero-image {
-	background-image: url(/images/island-1200-large.jpg);
-  	
+    background-image: url(/images/island-1200-large.jpg);
+  }
+  .container-fluid{
+    padding: 0 15px;
+  }
+  .remove-row-padding {
+   padding: 0 15px;
+  }
 }
-
-}
-  
 @media (max-width: 500px) {
-  
   #header-text {
-	font-size: 18px;
-	margin: .2em;
- }
+	 font-size: 18px;
+	 margin: .2em;
+  }
   #header-subtext {
- 	font-size: 13px;
- 	margin: .05em 0;
- }
-
+ 	  font-size: 13px;
+ 	  margin: .05em 0;
+  }
   .header-black-box {
   	padding: 5vw;
   	height: 100%;
   }
-
   #gallery-title {
   	font-size: 20px;
   	margin: 2vw 0 2vw;
   }
-
   .gallery-hero-image {
-	background-image: url(/images/island-300-small.jpg);
-  
+    background-image: url(/images/island-300-small.jpg);
   }
-
 }	
-
 @media (min-width: 1200px) {
 	.header-black-box {
   	padding: 2vw;
  }
  .gallery-hero-image {
-	background-image: url(/images/island-1200-large.jpg);
-  	
-}
-
-  	#header-text {
- 	font-size: 4em;
- 	margin: 0.37em 0;
- }
+	 background-image: url(/images/island-1200-large.jpg);
+  }
+  #header-text {
+    font-size: 4em;
+    margin: 0.37em 0;
+  }
  	#header-subtext {
   	font-size: 2em;
-  	
-
-  }
+   }
 }
-
 
 /*! Coloring */
 .white-font {
-	color: white;
+  color: white;
 }
-
 .svg-fill-white {
 	fill: white;
 }
-
-
-	
+#gallery-title{
+  color:#8E2C03;
+}
