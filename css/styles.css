@@ -67,8 +67,21 @@ footer {
   font-size: 1em;
   color: #8D2D09;
   text-align: center;
+  padding-bottom: 30px;
 }
 /*! Responsive  */
+@media (max-width: 750px) {
+  .thumb-text{
+    margin-bottom:15px
+  }
+  .thumb-link{
+    font-size: .5em;
+    color: #8D2D09;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+
 
 @media (min-width: 850px) {
   .header-image {
