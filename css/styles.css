@@ -72,10 +72,10 @@ footer {
 /*! Responsive  */
 @media (max-width: 750px) {
   .thumb-text{
-    margin-bottom:15px
+    margin-bottom: 0
   }
   .thumb-link{
-    font-size: .5em;
+    font-size: .6em;
     color: #8D2D09;
     text-align: center;
     padding-bottom: 30px;
