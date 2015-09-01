@@ -1,14 +1,3 @@
-footer {
-	float: left;
-	margin-top: 12vw;
-}
-#logo {
-  fill: #fff;
-}
-.header-mobile {
-	padding: 3% 0 10% 0;
-	margin-bottom: 5%
-}
 .header-black-box {
 	background-color: rgba(0, 0, 0, 0.4);
 	padding: 3vw;
@@ -20,9 +9,6 @@ footer {
 	position: absolute;
 	bottom:0;
 }
-.container-mobile {
-	padding: 0;
-}
 .header-image {
 	background-image: url(/images/house-800-small-3x.jpg);
 	overflow: hidden;
@@ -30,9 +16,6 @@ footer {
 	padding-bottom: 50px;
 	padding-top: 12vw;
 	height: 60vw;	
-}
-.full-width {
-	width: 100%;
 }
 .gallery-hero-image {
  	width: 100%;
@@ -67,7 +50,8 @@ footer {
   text-align: center;
   padding-bottom: 30px;
 }
-/*! Responsive  */
+
+/*! Responsive Breakpoints  */
 
 @media (max-width: 750px) {
   .thumb-text{
@@ -97,9 +81,6 @@ footer {
   }
   .container-fluid{
     padding: 0 15px;
-  }
-  .remove-row-padding {
-   padding: 0 15px;
   }
 }
 @media (max-width: 500px) {
@@ -144,12 +125,13 @@ footer {
 }
 
 /*! Coloring */
+
 .white-font {
   color: white;
 }
-/*.svg-fill {
-	fill: #FFF;
-}*/
 #gallery-title{
   color: #8E2C03;
+}
+#logo {
+  fill: #fff;
 }
