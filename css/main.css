@@ -1,0 +1,150 @@
+.header-black-box {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 3vw;
+}
+
+.gallery-black-box {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 3.5em;
+    width: calc(100% - 30px);
+    position: absolute;
+    bottom: 0;
+}
+
+.header-image {
+    background-image: url(/images/house-800-small-3x.jpg);
+    overflow: hidden;
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-top: 12vw;
+    height: 60vw;
+}
+
+.gallery-hero-image {
+    width: 100%;
+    height: 46vw;
+    position: relative;
+    margin-bottom: 5vw;
+}
+
+#image-caption {
+    margin: 15px;
+    font-size: .9em;
+}
+
+.thumb-text {
+    margin-top: 7.5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    color: #8D2D09;
+}
+
+.thumb-link {
+    font-size: 1em;
+    color: #8D2D09;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.thumb-center-image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gallery {
+    float: left;
+    width: 100%;
+}
+
+
+/*! Responsive Breakpoints  */
+
+@media (max-width: 750px) {
+    .thumb-text {
+        margin-bottom: 3vw;
+    }
+    .thumb-link {
+        font-size: .6em;
+        color: #8D2D09;
+        text-align: center;
+        padding-bottom: 30px;
+        display: none;
+    }
+}
+
+@media (min-width: 850px) {
+    .header-image {
+        background-image: url(/images/house-1600-large-1x.jpg);
+        height: 40vw;
+        padding-top: 50px;
+        margin: 0 15px 0 15px;
+    }
+    .header-black-box {
+        height: 100%;
+        padding: 2vw;
+    }
+    .gallery-hero-image {
+        width: 100%;
+    }
+    .container-fluid {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    #header-text {
+        font-size: 18px;
+        margin: .2em;
+    }
+    #header-subtext {
+        font-size: 13px;
+        margin: .05em 0;
+    }
+    .header-black-box {
+        padding: 5vw;
+        height: 100%;
+    }
+    #gallery-title {
+        font-size: 20px;
+        margin: 2vw 0 2vw;
+    }
+    .gallery-hero-image {
+        width: 100%;
+    }
+    .thumb-text {
+        margin-top: 7.5px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 0.8em;
+        color: #8D2D09;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-black-box {
+        padding: 2vw;
+    }
+    #header-text {
+        font-size: 4em;
+        margin: .37em 0;
+    }
+    #header-subtext {
+        font-size: 2em;
+    }
+}
+
+
+/*! Coloring */
+
+.white-font {
+    color: white;
+}
+
+#gallery-title {
+    color: #8E2C03;
+}
+
+#logo {
+    fill: #fff;
+}
